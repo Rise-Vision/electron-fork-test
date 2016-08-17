@@ -6,6 +6,7 @@ setTimeout(()=>{
   background.disconnect();
   setTimeout(()=>{
     console.log("quitting main");
-    require("electron").app.quit();
+    //require("electron").app.quit();
+    process.exit(0);
   }, 2000);
 }, 2000);
