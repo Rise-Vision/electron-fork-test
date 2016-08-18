@@ -1,3 +1,5 @@
+delete process.env.ELECTRON_RUN_AS_NODE;
+
 updater = setInterval(()=>{
   console.log("background launcher running");
 },1000);

@@ -4,7 +4,7 @@ npm install
 ```
 
 ### Run
-Fails when forking from an electron process
+Work when forking from an electron process now that ELECTRON_RUN_AS_NODE isn't being passed through to the spawned app.
 ```bash
 ./node_modules/electron-prebuilt/dist/electron .
 ```
